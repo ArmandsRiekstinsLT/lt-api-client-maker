@@ -1,0 +1,23 @@
+{
+    "name": "lt/api-auth-client-maker",
+    "description": "An API Client Maker For Specific Purpose",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LT\\Utils\\ApiClientMaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Armands Riekstins",
+            "email": "armands.riekstins@latvijastalrunis.lv"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+    },
+    "require": {
+        "symfony/http-client": "^6.2"
+    }
+}
