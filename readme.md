@@ -4,7 +4,7 @@
 How to set up in symfony:
 1. Install with
 ```
-    composer require 
+    composer require latvijas-talrunis/api-auth-client-maker
 ```
 In the case of your project not being able to find the ClientMaker. This might help:
 ```
@@ -14,7 +14,7 @@ In the case of your project not being able to find the ClientMaker. This might h
 2. Update your project's
 ```
 services:
-    LT\AuthorizedClientMaker\ClientMaker:
+    LT\Utils\ApiClientMaker\ClientMaker:
         arguments:
             $authServiceUrl: '%env(string:AUTH_SERVICE_URL)%'
             $authServiceUser: '%env(string:AUTH_SERVICE_USER)%'
