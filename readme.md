@@ -36,7 +36,7 @@ It needs a class property in which to keep the instantiated ClientMaker
 
 It needs to be set up in the clients constructor
 ```
-    public function __construct(ClientMaker $serviceMediatorClientMaker){
+    public function __construct(ApiClientMaker $serviceMediatorClientMaker){
     $this->clientMaker = $serviceMediatorClientMaker;
     }
 ```
